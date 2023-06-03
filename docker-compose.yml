@@ -2,8 +2,7 @@ version: "3.7"
 
 services:
   mc:
-    countainer_name: mc
-    image: itzg/minecraft-server:1.19.2
+    image: itzg/minecraft-server:latest
     # restart: unless-stopped
     volumes:
       # use a named, managed volume for data volume
